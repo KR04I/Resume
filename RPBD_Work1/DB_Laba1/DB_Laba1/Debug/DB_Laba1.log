@@ -1,0 +1,26 @@
+﻿  Passport_Mapper.cpp
+  Registration_Mapper.cpp
+  Room_Mapper.cpp
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Room_Mapper.cpp(47,15): warning C4473: "sprintf": передано недостаточно аргументов для строки формата
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Room_Mapper.cpp(47,15): message : заполнители и их параметры ожидают переменное число аргументов в количестве 1, но было предоставлено 0
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Room_Mapper.cpp(47,15): message : отсутствующий вариативный аргумент "1" требуется для строки форматирования "%d"
+  Service_Mapper.cpp
+  Source.cpp
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Registration_Mapper.h(8,1): warning C4005: ID_LEN: изменение макроопределения
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Room_Mapper.h(9): message : см. предыдущее определение "ID_LEN"
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(25,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(37,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(50,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(62,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(73,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(85,20): warning C4018: <: несоответствие типов со знаком и без знака
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(618,9): warning C4101: d_num: неиспользованная локальная переменная
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(617,7): warning C4101: num2: неиспользованная локальная переменная
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(619,7): warning C4101: flag: неиспользованная локальная переменная
+C:\Users\egorf\source\repos\DB_Laba1\DB_Laba1\Source.cpp(616,7): warning C4101: num: неиспользованная локальная переменная
+  Staff_Mapper.cpp
+  Storage.cpp
+  Visitor.cpp
+  Visitor_Mapper.cpp
+  Создание кода...
+  DB_Laba1.vcxproj -> C:\Users\egorf\source\repos\DB_Laba1\Debug\DB_Laba1.exe

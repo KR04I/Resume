@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="BaseMapper&lt;T, TypeID&gt;">
+    <Position X="13.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACQAAAEAAAAAAEAEAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>BaseMapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataBase">
+    <Position X="17.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAiAAAAgAAhAIFAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>DataBase.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Passport">
+    <Position X="8" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EgAAAQAAIAAkQEAABDAAAAAAAAICgBAAAEAABgAAAgA=</HashCode>
+      <FileName>Passport.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Passport_Mapper">
+    <Position X="8" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="BaseMapper&lt;T, TypeID&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="14.375" Y="5.574" />
+        <Point X="14.375" Y="7.125" />
+        <Point X="8.75" Y="7.125" />
+        <Point X="8.75" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACEQAAEAAAAAAEAEAIAgAAAAAAAAgAAAiA=</HashCode>
+      <FileName>Passport_Mapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Registration">
+    <Position X="14.75" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BgAAAAAAICAQAgJAACBgEAAAABAAkRAJAQQCAABGAgA=</HashCode>
+      <FileName>Registration.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Registration_Mapper">
+    <Position X="14.75" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="BaseMapper&lt;T, TypeID&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="14.25" Y="5.574" />
+        <Point X="14.25" Y="7.125" />
+        <Point X="15.5" Y="7.125" />
+        <Point X="15.5" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAQAAEAAAAEAEAEAAAABAIAQQCAAABAgA=</HashCode>
+      <FileName>Registration_Mapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room">
+    <Position X="10.25" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAggAAAAAAAABAAADUAEAACQBEABUAAAAAAAAAAAgA=</HashCode>
+      <FileName>Room.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Room_Mapper">
+    <Position X="10.25" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="BaseMapper&lt;T, TypeID&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="14.312" Y="5.574" />
+        <Point X="14.312" Y="7.125" />
+        <Point X="11" Y="7.125" />
+        <Point X="11" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AIAAgAAAAACAAAAEAAAAEAEAUAEAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Room_Mapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service">
+    <Position X="17.25" Y="11.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgABAAAAAAAAAAAAACAAARAAAAAEQABAAAAEIAAAAgA=</HashCode>
+      <FileName>Service.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Service_Mapper">
+    <Position X="17" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="BaseMapper&lt;T, TypeID&gt;" FixedFromPoint="true">
+      <Path>
+        <Point X="14.375" Y="5.574" />
+        <Point X="14.375" Y="7.125" />
+        <Point X="17.75" Y="7.125" />
+        <Point X="17.75" Y="7.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAACQAAAEAAAAAAEAEAAEAAAAAAAACAAAAgA=</HashCode>
+      <FileName>Service_Mapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Staff">
+    <Position X="12.5" Y="11.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IgICAAAAAAAAAAAAAGQEAAAAACAEAAjAAAAEAAQAAiA=</HashCode>
+      <FileName>Staff.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Staff_Mapper">
+    <Position X="12.5" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAACAAAAAACAAAAEAAAEAAEAEAAEAAAAAAAAAQAQAgA=</HashCode>
+      <FileName>Staff_Mapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Storage">
+    <Position X="4.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAgAAQAEgCBSIAAQAAACAAQAAUQiYAAAAgA=</HashCode>
+      <FileName>Storage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor">
+    <Position X="19.25" Y="12.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>MgICAQMAIAAAAAAAAGAEgAgAAAAGABrAAAAEAAQAAiA=</HashCode>
+      <FileName>Visitor.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Visitor_Mapper">
+    <Position X="19.25" Y="7.5" Width="1.5" />
+    <InheritanceLine Type="BaseMapper&lt;T, TypeID&gt;" ManuallyRouted="true" FixedFromPoint="true">
+      <Path>
+        <Point X="14.438" Y="5.574" />
+        <Point X="14.438" Y="6.938" />
+        <Point X="21.125" Y="6.938" />
+        <Point X="21.125" Y="9.688" />
+        <Point X="20.75" Y="9.688" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAiAAAAEAAAEgAkAEAQEAAAAIAAAAAAEAgg=</HashCode>
+      <FileName>Visitor_Mapper.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Date" Collapsed="true">
+    <Position X="25.5" Y="12.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAkAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Date.h</FileName>
+    </TypeIdentifier>
+  </Struct>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
