@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persistence xmlns="https://jakarta.ee/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="https://jakarta.ee/xml/ns/persistence https://jakarta.ee/xml/ns/persistence/persistence_3_0.xsd"
+             version="3.0">
+    <persistence-unit name="default">
+
+        <class>DB_hotel.PassportEntity</class>
+        <class>DB_hotel.RegistrationEntity</class>
+        <class>DB_hotel.RoomEntity</class>
+        <class>DB_hotel.ServiceEntity</class>
+        <class>DB_hotel.StaffEntity</class>
+        <class>DB_hotel.VisitorEntity</class>
+        <class>DB_hotel.VisitorServiceEntity</class>
+        <class>DB_hotel.WorkinghoursEntity</class>
+        <properties>
+            <property name="hibernate.connection.url" value="jdbc:postgresql://localhost:5432/hotel"/>
+            <property name="hibernate.connection.driver_class" value="org.postgresql.Driver"/>
+            <property name="hibernate.connection.username" value="visitor"/>
+            <property name="hibernate.connection.password" value="12345"/>
+            <property name="hibernate.enable_lazy_load_no_trans" value="true"/>
+        </properties>
+    </persistence-unit>
+</persistence>
